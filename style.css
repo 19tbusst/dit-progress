@@ -13,6 +13,7 @@ body {
 
 nav {
     background-color: #868686;
+    text-align: center;
 }
 
 li {
@@ -31,15 +32,23 @@ li>a {
     padding: 20px;
 }
 
-#selected {
-    background-color: #38532b;
-}
-
-body>div {
+#text-block {
     background-color: #0e590e;
-    padding: 50px;
+    padding: 30px;
 }
 
-body>p {
+main>p,
+div>p {
     padding: 30px;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+main>img,
+div>img {
+    margin-top: 30px;
+    width: 100%;
 }
