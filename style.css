@@ -52,3 +52,7 @@ div>img {
     margin-top: 30px;
     width: 100%;
 }
+
+#selected {
+   background-color: #b4d6a4;
+}
